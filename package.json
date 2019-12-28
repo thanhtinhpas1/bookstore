@@ -2,6 +2,9 @@
   "name": "1512529-1512561-1512601",
   "version": "1.0.0",
   "description": "pac",
+  "engines": {
+    "node": "11.15.0"
+  },
   "scripts": {
     "start": "node app.js"
   },
