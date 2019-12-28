@@ -2,11 +2,11 @@
  * Created by tutrinh on 6/3/18.
  */
 var express = require('express');
-var cartRepo = require('../repos/cartRepo'),
-    productRepo = require('../repos/ProductRepo'),
-    payRepo = require('../repos/payRepo'),
-    accountRepo = require('../repos/accountRepo');
-    dateFormat = require('handlebars-dateformat');
+var cartRepo = require('../repos/cartRepo');
+var productRepo = require('../repos/ProductRepo');
+var payRepo = require('../repos/payRepo');
+var accountRepo = require('../repos/accountRepo');
+var dateFormat = require('handlebars-dateformat');
 
 var router = express.Router();
 router.get('/', (req, res) => {
