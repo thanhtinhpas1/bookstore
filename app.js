@@ -102,7 +102,6 @@ app.use('/tim-voi-key', SearchController);
 app.use('/', HomeController);
 
 app.use(handle404MDW);
-
-app.listen(3000, () => {
-    console.log("Server is running on port: " + 3004);
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Server is running on port: " + 3000);
 });
