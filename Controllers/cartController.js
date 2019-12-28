@@ -3,7 +3,7 @@
  */
 var express = require('express');
 var cartRepo = require('../repos/cartRepo');
-var productRepo = require('../repos/productRePo');  
+var productRepo = require('../repos/productRepo');  
 var payRepo = require('../repos/payRepo');
 var accountRepo = require('../repos/accountRepo');
 var dateFormat = require('handlebars-dateformat');
